@@ -6,6 +6,10 @@ DROP SCHEMA IF EXISTS `test_lab2`;
 
 CREATE SCHEMA IF NOT EXISTS `test_lab2`
   DEFAULT CHARACTER SET utf8;
+
+CREATE USER 'testUser'@'localhost' IDENTIFIED BY 'test_password';
+GRANT ALL PRIVILEGES ON `test_lab2` . * TO 'testUser'@'localhost';
+
 USE `test_lab2`;
 
 CREATE TABLE IF NOT EXISTS `test_lab2`.`user` (
