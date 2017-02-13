@@ -25,7 +25,7 @@ public class Controller extends HttpServlet {
             request.setAttribute(USERS_ATTRIBUTE, users);
             request.getRequestDispatcher(USER_LIST_PAGE_PATH).forward(request, response);
         } catch (ModelException e) {
-            //e.printStackTrace();
+            e.printStackTrace();
             response.sendError(500);
         }
     }
