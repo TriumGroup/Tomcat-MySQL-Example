@@ -10,7 +10,7 @@
   <body>
     <div class="container">
       <h2>Tomcat + MySQL Example</h2>
-      <p>Created by Mikhail Stitavets, Ivan Shimko, Andrey Tatarenko</p>
+      <p>Created by Mikhail Snitavets, Ivan Shimko, Andrey Tatarenko</p>
       <table class="table table-striped table-hover">
         <thead>
           <tr>
